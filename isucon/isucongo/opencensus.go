@@ -1,4 +1,4 @@
-package _go
+package isucongo
 
 import (
 	"contrib.go.opencensus.io/integrations/ocsql"
