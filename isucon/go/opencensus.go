@@ -8,7 +8,7 @@ import (
 
 func WrapDBDriverWithOCSQL(driverName string, sampleProbability float64) (string, error){
 	var o ocsql.TraceOption
-	switch os.Getenv("env") {
+	switch os.Getenv("ENV") {
 	case "bench":
 		_o, err := benchConfig()
 		if err != nil {
